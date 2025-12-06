@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    background-color: beige;
+    
+}
+
+.article-container {
+    display: flex;
+}
+
+.typedog:hover{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 40rem;
+    border: 1px solid black;
+    border-radius: 1.5%;
+    background-color: blueviolet;
+    
+}
+
+img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+}
