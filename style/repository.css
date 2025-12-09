@@ -1,0 +1,36 @@
+header{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    color: white;
+    background-image: url(/Image/body.png);
+}
+
+
+.encabezado{
+    
+    font-size: 30px;
+    background: linear-gradient(rgb(6, 67, 235), rgb(105, 105, 226));
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.nav li,.nav a{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
